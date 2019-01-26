@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:orientation="vertical"
+    android:layout_margin="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.drimcell.hub.About">
+
+    <Button
+        android:text="Hamdard University Bangladesh"
+        android:padding="16dp"
+        android:background="@color/colorPrimary"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:id="@+id/buttonAbout_HUB" />
+
+
+    <Button
+        android:text="Hamdard Foundation Bangladesh"
+        android:padding="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonAbout_HamdardFoundation" />
+
+
+
+    <Button
+        android:text="Vision"
+        android:padding="16dp"
+        android:background="@color/colorPrimary"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:id="@+id/buttonVision" />
+
+    <Button
+        android:text="Objectives and Aims"
+        android:padding="16dp"
+        android:background="@color/colorPrimary"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:id="@+id/buttonObjectives_Aims" />
+
+    <Button
+        android:text="Message From Founder"
+        android:padding="16dp"
+        android:background="@color/colorPrimary"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:id="@+id/buttonFounderMessage" />
+</LinearLayout>

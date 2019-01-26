@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/miabout"
+            android:icon="@drawable/icon_hub"
+            android:title="About" />
+        <item
+            android:id="@+id/miAdmission"
+            android:icon="@drawable/icon_admission"
+            android:title="Admission" />
+        <item
+            android:id="@+id/miPrograms"
+            android:icon="@drawable/icon_programs"
+            android:title="Programs" />
+        <item
+            android:id="@+id/miAuthority"
+            android:icon="@drawable/icon_person"
+            android:title="Authorities" />
+        <item
+            android:id="@+id/miLibrary"
+            android:icon="@drawable/icon_library"
+            android:title="Library" />
+        <item
+            android:id="@+id/miCafe"
+            android:icon="@drawable/icon_cafe"
+            android:title="Cafe" />
+
+        <item
+            android:id="@+id/miTransport"
+            android:icon="@drawable/icon_transport"
+            android:title="Transport" />
+        <item
+            android:id="@+id/miHostel"
+            android:icon="@drawable/icon_hostel"
+            android:title="Hostel" />
+        <item
+            android:id="@+id/miMap"
+            android:icon="@drawable/icon_map"
+            android:title="Map" />
+        <item
+            android:id="@+id/miNotice"
+            android:icon="@drawable/icon_notice"
+            android:title="Notice" />
+        <item
+            android:id="@+id/miNews"
+            android:icon="@drawable/icon_news"
+            android:title="News" />
+
+        <item
+            android:id="@+id/miContact"
+            android:icon="@drawable/icon_contact"
+            android:title="Contact" />
+
+
+    </group>
+
+
+</menu>

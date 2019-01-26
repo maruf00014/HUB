@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="4dp">
+
+    <Button
+        android:text="Developed by"
+        android:padding="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/about_devloper"/>
+
+    <Button
+        android:text="special thanks"
+        android:padding="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/about_special_thanks"/>
+
+</LinearLayout>

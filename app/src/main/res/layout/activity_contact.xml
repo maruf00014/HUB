@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_programs"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.drimcell.hub.Programs">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="4dp">
+        <TextView
+            android:text="Address"
+            android:textAllCaps="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginTop="4dp"
+            android:textStyle="normal|bold"
+            android:textAlignment="center"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Hamdard University Bangladesh \nHamdard City of Science, Education and Culture\nGazaria, Munshiganj"
+            android:lineSpacingExtra="2dp"/>
+
+        <TextView
+            android:text="Telephone"
+            android:textAllCaps="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginTop="8dp"
+            android:textStyle="normal|bold"
+            android:textAlignment="center"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="01776439000,01776439001"
+            android:lineSpacingExtra="2dp"/>
+
+        <TextView
+            android:text="Fax"
+            android:textAllCaps="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginTop="8dp"
+            android:textStyle="normal|bold"
+            android:textAlignment="center"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="0088 02 9669823"
+            android:lineSpacingExtra="2dp"/>
+        <TextView
+            android:text="E-mail"
+            android:textAllCaps="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginTop="8dp"
+            android:textStyle="normal|bold"
+            android:textAlignment="center"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="info@hamdarduniversity.edu.bd"
+            android:lineSpacingExtra="2dp"/>
+        <TextView
+            android:text="Website"
+            android:textAllCaps="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginTop="8dp"
+            android:textStyle="normal|bold"
+            android:textAlignment="center"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="www.hamdarduniversity.edu.bd"
+            android:lineSpacingExtra="2dp"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

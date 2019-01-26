@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.drimcell.hub">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyB5Sv2IPCdszfrwHTIi3tmB77h36n6QpRA" />
+
+        <activity
+            android:name="com.drimcell.hub.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.drimcell.hub.SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.drimcell.hub.HubActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.drimcell.hub.Vision"
+            android:label="Vision" />
+        <activity
+            android:name="com.drimcell.hub.Library"
+            android:label="Library" />
+        <activity
+            android:name="com.drimcell.hub.MapsActivity"
+            android:label="Map" />
+        <activity
+            android:name="com.drimcell.hub.Programs"
+            android:label="Programs" />
+        <activity
+            android:name="com.drimcell.hub.Authorities"
+            android:label="Authorities" />
+        <activity
+            android:name="com.drimcell.hub.About"
+            android:label="About" />
+        <activity
+            android:name="com.drimcell.hub.AboutHamdardFoundation"
+            android:label="Hamdard Foundation" />
+        <activity
+            android:name="com.drimcell.hub.ObjectiveAims"
+            android:label="Objective and Aims" />
+        <activity
+            android:name="com.drimcell.hub.FounderMessage"
+            android:label="Founder Message" />
+        <activity
+            android:name="com.drimcell.hub.Admission"
+            android:label="Admission" />
+        <activity
+            android:name="com.drimcell.hub.Graduate"
+            android:label="Graduate" />
+        <activity
+            android:name="com.drimcell.hub.Undergraduate"
+            android:label="Undergraduate" />
+        <activity
+            android:name="com.drimcell.hub.BoardTrustees"
+            android:label="Board of Trustees" />
+        <activity
+            android:name="com.drimcell.hub.Contact"
+            android:label="Contact" />
+        <activity
+            android:name="com.drimcell.hub.Notice"
+            android:label="Notice" />
+        <activity
+            android:name="com.drimcell.hub.News"
+            android:label="News" />
+        <activity
+            android:name="com.drimcell.hub.Cafe"
+            android:label="Cafeteria" />
+        <activity
+            android:name="com.drimcell.hub.Transport"
+            android:label="Transport" />
+        <activity
+            android:name="com.drimcell.hub.Hostel"
+            android:label="Hostel" />
+        <activity
+            android:name="com.drimcell.hub.AboutThisApp"
+            android:label="About This App" />
+        <activity android:name="com.drimcell.hub.VisitWebsite" />
+        <activity
+            android:name="com.drimcell.hub.PrincipleOfficer"
+            android:label="Chancellor and Principle Officers" />
+        <activity
+            android:name="com.drimcell.hub.FacultyArts"
+            android:label="Faculty of Arts" />
+        <activity
+            android:name="com.drimcell.hub.FacultyScience"
+            android:label="Faculty of Science" />
+        <activity
+            android:name="com.drimcell.hub.FacultyBusiness"
+            android:label="Faculty of Business" />
+        <activity
+            android:name="com.drimcell.hub.FacultyMedicine"
+            android:label="Faculty of Medicine" />
+        <activity
+            android:name="com.drimcell.hub.BusTrackerActivity"
+            android:label="@string/title_activity_bus_tracker"></activity>
+    </application>
+
+</manifest>

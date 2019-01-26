@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.drimcell.hub.About">
+
+    <Button
+        android:text="Chancellor and Principle Officers"
+        android:padding="16dp"
+        android:background="@color/colorPrimary"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:id="@+id/officerButton" />
+
+    <Button
+        android:text="Board of Trustees"
+        android:padding="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/trusteeButton" />
+
+
+
+    <ExpandableListView
+        android:id="@+id/lvExp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
